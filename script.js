@@ -20,4 +20,4 @@ function addProduct(name, category) {
 
 var getProduct = addProduct("iPhone 12", "Smartphone");
 console.log(getProduct);
-cart.innerHTML = `Product 1: ${getProduct.productName}, category ${getProduct.category}`;
+cart.innerHTML = `Product 1: ${getProduct.name}, category ${getProduct.category}`;
